@@ -1,0 +1,76 @@
+body {
+  background: rgb(218, 216, 216)
+}
+
+h5 {
+  text-align: center;
+}
+
+#navbar-bg {
+  background-color: white;
+}
+
+#navbar-link {
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  background: rgb(53, 155, 138);
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-title {
+  font: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(53, 155, 138)
+}
+
+#summary-image {
+  height: 40%;
+  width: 40%;
+}
+
+#main-image {
+  height: 80%;
+  width: 80%;
+}
+
+.viz-images {
+  float: left;
+  height: 100%;
+  width:  100%;
+}
+
+.viz-images:hover {
+  opacity:.75;
+}
+
+.image-border {
+  border: 3px solid #359b8a
+}
+
+td {
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+th {
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table-font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-small;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-color: white;
+  }
+  #navbar-bg {
+  background-color: rgb(53, 155, 138);
+  }
+}
+
